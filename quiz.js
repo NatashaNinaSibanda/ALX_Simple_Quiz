@@ -16,5 +16,7 @@ function checkAnswer() {
     }
 }
 
-document.getElementById("submit-answer").addEventListener("click", checkAnswer);
+const submitButton = document.getElementById("submit-answer");
+submitButton.addEventListener("click", checkAnswer);
+
 
